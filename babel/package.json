@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "babel-jest": "^17.0.0",
+    "babel-plugin-transform-exponentiation-operator": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "jest": "^17.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}

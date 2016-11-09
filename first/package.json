@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jest": "^17.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
