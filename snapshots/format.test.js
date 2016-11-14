@@ -5,7 +5,7 @@ describe('formatCurrency', () => {
         expect(formatCurrency(1)).toMatchSnapshot();
     });
 
-    it('should properly format 2 dollars', () => {
-        expect(formatCurrency(2)).toMatchSnapshot();
+    it('should properly format 1 million dollars', () => {
+        expect(formatCurrency(1e6)).toMatchSnapshot();
     });
 })
