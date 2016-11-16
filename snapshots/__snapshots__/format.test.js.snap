@@ -1,3 +1,5 @@
+exports[`formatCurrency should fail to format undefined 1`] = `"Cannot read property \'toFixed\' of undefined"`;
+
 exports[`formatCurrency should properly format 1 dollar 1`] = `"$1.00"`;
 
 exports[`formatCurrency should properly format 1 million dollars 1`] = `"$1m"`;
