@@ -1,4 +1,4 @@
-exports[`formatCurrency should fail to format undefined 1`] = `"Cannot read property \'toFixed\' of undefined"`;
+exports[`formatCurrency should fail to format undefined 1`] = `"Wrong value"`;
 
 exports[`formatCurrency should properly format 1 dollar 1`] = `"$1.00"`;
 
