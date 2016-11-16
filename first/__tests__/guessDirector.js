@@ -1,9 +1,11 @@
 const guessDirector = require('../guessDirector');
 
-it('Francis Ford Coppola is the director of Godfather', () => {
-    expect(guessDirector('Godfather', 'Francis Ford Coppola')).toBe(true);
-})
+describe("guessDirector", () => {
+    it('Francis Ford Coppola is the director of Godfather', () => {
+        expect(guessDirector('Godfather', 'Francis Ford Coppola')).toBe(true);
+    })
 
-it('Francis Ford Coppola is not the director of Killer', () => {
-    expect(guessDirector('Killer', 'Francis Ford Coppola')).toBe(false);
+    it('Francis Ford Coppola is not the director of Killer', () => {
+        expect(guessDirector('Killer', 'Francis Ford Coppola')).toBe(false);
+    })
 })
