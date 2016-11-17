@@ -1,7 +1,7 @@
 import fs from 'fs'
 
-export default () => {
-    return fs.readFileSync('movies.csv')
+export default (fileName) => {
+    return fs.readFileSync(fileName)
         .toString()
         .trim()
         .split(',');

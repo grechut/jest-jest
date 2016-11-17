@@ -1,3 +1,3 @@
-export default () => {
+export default (fileName) => {
     return ['Batman', 'Spiderman'];
 };
