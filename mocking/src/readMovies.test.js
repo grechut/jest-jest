@@ -13,7 +13,7 @@ test('reading movies from file should succeed', () => {
 jest.mock('fs');
 import fs from 'fs';
 
-test('fs module was automocked', () => {
+test('fs module was mocked', () => {
     expect(
         jest.isMockFunction(fs.createReadStream)
     ).toBeTruthy()
