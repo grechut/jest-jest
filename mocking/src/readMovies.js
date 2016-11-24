@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from 'fs';
 
 export default (fileName) => {
     return fs.readFileSync(fileName)
