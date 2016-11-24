@@ -1,1 +1,0 @@
-exports[`formatCurrency should properly format 1 million dollars 1`] = `"$1m"`;
