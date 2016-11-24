@@ -2,4 +2,5 @@ function readMovies(fileName) {
     return ['Batman', 'Spiderman'];
 };
 
-export default jest.fn(readMovies);
+export default readMovies;
+// export default jest.fn(readMovies);
