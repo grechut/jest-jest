@@ -4,7 +4,7 @@ jest.mock('./readMovies');
 // jest.mock('fs');
 
 test('reading movies from file should succeed', () => {
-    expect(readMovies('movies.csv')).toEqual(
+    expect(readMovies('hero_movies.csv')).toEqual(
         ['Batman', 'Spiderman']
     );
     expect(readMovies).toHaveBeenCalled();
