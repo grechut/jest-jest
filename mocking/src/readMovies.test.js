@@ -1,7 +1,8 @@
-import readMovies from './readMovies';
-
 jest.mock('./readMovies');
-// jest.mock('fs');
+jest.mock('fs');
+
+import readMovies from './readMovies';
+import fs from 'fs';
 
 test('reading movies from file should succeed', () => {
     expect(readMovies('hero_movies.csv')).toEqual(
@@ -10,8 +11,6 @@ test('reading movies from file should succeed', () => {
     expect(readMovies).toHaveBeenCalled();
 });
 
-jest.mock('fs');
-import fs from 'fs';
 
 test('fs module was mocked', () => {
     expect(
