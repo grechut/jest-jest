@@ -3,4 +3,4 @@ function readMovies(fileName) {
 };
 
 export default readMovies;
-// export default jest.fn(readMovies);
+// export default jest.fn( readMovies );
